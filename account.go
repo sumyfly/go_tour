@@ -128,7 +128,7 @@ func (acc *ConcurrentAccount) listen() {
 	}()
 }
 
-func main() {
+func main1() {
 	balance := 80
 	b := NewBank(NewConcurrentAccount(balance))
 
