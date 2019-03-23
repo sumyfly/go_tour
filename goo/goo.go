@@ -1,12 +1,15 @@
 package main
 
 import (
-	"fmt"
+	. "fmt"
 
-	"github.com/dropbox/godropbox/time2"
+	qr5 "go_tutor/qr"
+
+	t "github.com/dropbox/godropbox/time2"
 )
 
 func main() {
-	now := time2.NowFloat()
-	fmt.Printf("now:%v", now)
+	now := t.NowFloat()
+	Printf("now:%v\r\n", now)
+	Printf("%v", qr5.QR)
 }
